@@ -2,7 +2,7 @@ import pathlib
 import utilities
 
 program_name: str = pathlib.Path(__file__).name
-program_version: str = '1.1.0'
+program_version: str = '1.2.0'
 
 class Main():
 
