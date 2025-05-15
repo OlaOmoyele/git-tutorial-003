@@ -1,13 +1,13 @@
 import pathlib
 import utilities
 
-software_name: str = pathlib.Path(__file__).name
-software_version: str = '1.3.0'
+script_name: str = pathlib.Path(__file__).name
+script_version: str = '1.3.0'
 
 class Main():
 
     def __init__(self) -> None:
-        print(f'Running {software_name} v{software_version}')
+        print(f'Running {script_name} v{script_version}')
         utilities.welcome_msg()
 
     def quit(self) -> None:
