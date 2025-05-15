@@ -1,6 +1,9 @@
 import os
 
 def print_formatter(msg: str, formatter: str = '-') -> None:
+    if isinstance(msg, int):
+        raise ValueError
+
     formatter_multiplier = len(msg)
     duplicated_formatter = formatter * formatter_multiplier
 
