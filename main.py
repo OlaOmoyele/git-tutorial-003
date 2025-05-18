@@ -1,6 +1,6 @@
 import pathlib
 import utilities
-import new_feature
+import time
 
 script_name: str = pathlib.Path(__file__).name
 script_version: str = '1.3.0'
@@ -18,5 +18,5 @@ class Main():
 
 if __name__ == '__main__':
     main = Main()
-    new_feature.new_feature()
+    time.sleep(2)
     main.quit()
