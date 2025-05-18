@@ -3,7 +3,7 @@ import utilities
 import time
 
 script_name: str = pathlib.Path(__file__).name
-script_version: str = '1.3.0'
+script_version: str = '2.3.0'
 
 class Main():
 
