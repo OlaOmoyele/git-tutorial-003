@@ -1,5 +1,6 @@
 import pathlib
 import utilities
+import new_feature
 
 script_name: str = pathlib.Path(__file__).name
 script_version: str = '1.3.0'
@@ -17,4 +18,5 @@ class Main():
 
 if __name__ == '__main__':
     main = Main()
+    new_feature.new_feature()
     main.quit()
